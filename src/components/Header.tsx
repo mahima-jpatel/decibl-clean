@@ -16,6 +16,40 @@ const bricolageGrotesque = Bricolage_Grotesque({
   subsets: ['latin'],
   variable: '--font-bricolage-grotesque',
 });
+const ImageLogo = ({ 
+    src, 
+    alt, 
+    width = 28, 
+    height = 28, 
+    className = "" 
+  }: {
+    src: string;
+    alt: string;
+    width?: number;
+    height?: number;
+    className?: string;
+  }) => {
+    // Combining classNames with default styling
+    const combinedClassName = `min-w-fit ${className}`;
+    
+    return (
+      <div className={combinedClassName} style={{ width, height }}>
+        {/* Using background-image approach for better iOS compatibility */}
+        <div 
+          style={{
+            backgroundImage: `url(${src})`,
+            backgroundSize: 'contain',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            width: '100%',
+            height: '100%'
+          }}
+          role="img"
+          aria-label={alt || "Logo"}
+        />
+      </div>
+    );
+  };
 
 const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -30,13 +64,13 @@ const Header: React.FC = () => {
                 <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-10">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
-                        {/* <FaFingerprint className="text-foreground min-w-fit w-7 h-7" /> */}
-                        <img
+                        <ImageLogo className="text-foreground min-w-fit w-7 h-7" src="/images/decibl.png" alt="Company Logo"/>
+                        {/* <img
                         src="/images/decibl.png"
                         alt="Decibl Logo"
                         className="min-w-fit w-7 h-7"
                         // style={{ width: '50px', height: '50px' }} 
-                        />
+                        /> */}
                         <span className="text-xl font-semibold text-foreground cursor-pointer font-bricolage-grotesque">
                             {siteDetails.siteName}
                         </span>
