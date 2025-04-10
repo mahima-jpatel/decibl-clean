@@ -35,7 +35,7 @@ const Header: React.FC = () => {
                         src="/images/decibl.png"
                         alt="Decibl Logo"
                         className="min-w-fit w-7 h-7"
-                        style={{ width: '50px', height: '50px' }} 
+                        // style={{ width: '50px', height: '50px' }} 
                         />
                         <span className="text-xl font-semibold text-foreground cursor-pointer font-bricolage-grotesque">
                             {siteDetails.siteName}
