@@ -7,8 +7,15 @@ const bricolageGrotesque = Bricolage_Grotesque({
   display: 'swap',
 });
 
+// Define interface for team member data
+interface TeamMemberType {
+  name: string;
+  affiliation: string;
+  imageSrc: string;
+}
+
 // Define the team members data
-const teamMembers = [
+const teamMembers: TeamMemberType[] = [
   {
     name: "Akhil Dua",
     affiliation: "Carnegie Mellon University",
@@ -31,7 +38,12 @@ const teamMembers = [
   }
 ];
 
-const TeamMember = ({ member }) => {
+// Define props interface for TeamMember component
+interface TeamMemberProps {
+  member: TeamMemberType;
+}
+
+const TeamMember: React.FC<TeamMemberProps> = ({ member }) => {
   return (
     <div className="team-card bg-white shadow-md rounded-lg p-6 text-center max-w-xs">
       <div className="w-40 h-40 rounded-full mx-auto mb-4 overflow-hidden relative" >
