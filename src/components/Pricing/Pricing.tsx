@@ -32,7 +32,7 @@ const teamMembers: TeamMemberType[] = [
     imageSrc: "/images/reuben2.jpeg"
   },
   {
-    name: "Arihant Seth",
+    name: "Arihant Sheth",
     affiliation: "Carnegie Mellon University",
     imageSrc: "/images/arihant.jpeg"
   }
