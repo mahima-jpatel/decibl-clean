@@ -14,22 +14,22 @@ export const benefits: IBenefit[] = [
         description: "A 30-day audio journey to help people feel better and stay better.",
         bullets: [
             {
-                title: "Intelligent Categorization",
-                description: "Listen to a short daily podcast",
-                icon: <SlEarphones size={24} color="#000" />
+                title: "Daily Audio Moments",
+                description: "Short, science-backed reflections to ground your day.",
+                icon: <SlEarphones size={26} />
             },
             {
-                title: "Customizable Goals",
-                description: "Reflect with a mood or word",
-                icon: <BiCommentDetail size={24} color="#000" />
+                title: "Mood & Word Check-ins",
+                description: "Reflect with a single word or emoji—whatever feels right.",
+                icon: <BiCommentDetail size={26} />
             },
             {
-                title: "Predictive Analysis",
-                description: "Watch your tree grow with your journey",
+                title: "Growth You Can See",
+                description: "Watch your personal tree grow as you build emotional habits.",
                 icon: <PiPottedPlant size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/Screen4.png"
     },
     {
         title: "Growth you can see. Progress you can feel.",
@@ -37,26 +37,26 @@ export const benefits: IBenefit[] = [
         bullets: [
             {
                 title: "Day 1",
-                description: "Begin with as little as $1 and watch your money grow.",
+                description: "Watch your personal tree grow as you build emotional habits.",
                 icon: <GiPlantSeed size={26} />
             },
             {
                 title: "Day 14",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
+                description: "Notice emotional patterns emerging. Stay grounded with daily reflections.",
                 icon: <PiPlant size={26} />
             },
             {
                 title: "Day 21",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
+                description: "Feel the difference. Reflect with more ease and confidence.",
                 icon: <GiPlantRoots size={26} />
             },
             {
                 title: "Day 30",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
+                description: "Your tree is thriving—and so are you.",
                 icon: <GiFruitTree size={26} />
             }
         ],
-        imageSrc: "/images/mockup-2.webp"
+        imageSrc: "/images/Screen3.png"
     },
     {
         title: "Why this works",
@@ -64,21 +64,21 @@ export const benefits: IBenefit[] = [
         bullets: [
             {
                 title: "Visual Growth",
-                description: "Visual Growth",
+                description: "Each day, your tree evolves—making your progress tangible.",
                 icon: <PiPottedPlantDuotone size={26} />
             },
             {
                 title: "Progressive Journey",
-                description: "Access your account securely with fingerprint or facial recognition.",
+                description: "Each day, your tree evolves—making your progress tangible.",
                 icon: <FaRegCompass size={26} />
             },
             {
                 title: "Scientifically Proven",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
+                description: "Designed with leading research in psychology and habit formation.",
                 icon: <GiMicroscope size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/Screen2.png"
     },
     {
         title: "We don't replace therapy. We help people show up for themselves between sessions every day.",
