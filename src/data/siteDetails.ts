@@ -2,7 +2,7 @@ export const siteDetails = {
     siteName: 'decibl',
     siteUrl: 'https://decibl.vercel.app/',
     metadata: {
-        title: 'decibl - Next.js and Tailwind CSS Landing Page Template',
+        title: 'decibl',
         description: 'Build emotional resilience, one step at a time, with Decibl.',
     },
     language: 'en-us',
