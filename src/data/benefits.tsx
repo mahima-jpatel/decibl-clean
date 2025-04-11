@@ -20,7 +20,7 @@ export const benefits: IBenefit[] = [
             },
             {
                 title: "Mood & Word Check-ins",
-                description: "Reflect with a single word or emoji—whatever feels right.",
+                description: "Reflect with a single word or emoji, whatever feels right.",
                 icon: <BiCommentDetail size={26} />
             },
             {
@@ -52,7 +52,7 @@ export const benefits: IBenefit[] = [
             },
             {
                 title: "Day 30",
-                description: "Your tree is thriving—and so are you.",
+                description: "Your tree is thriving and so are you.",
                 icon: <GiFruitTree size={26} />
             }
         ],
@@ -64,12 +64,12 @@ export const benefits: IBenefit[] = [
         bullets: [
             {
                 title: "Visual Growth",
-                description: "Each day, your tree evolves—making your progress tangible.",
+                description: "Each day, your tree evolves, making your progress tangible.",
                 icon: <PiPottedPlantDuotone size={26} />
             },
             {
                 title: "Progressive Journey",
-                description: "Each day, your tree evolves—making your progress tangible.",
+                description: "Reflections build on one another to deepen awareness over time.",
                 icon: <FaRegCompass size={26} />
             },
             {
