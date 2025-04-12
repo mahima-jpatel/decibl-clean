@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
 
@@ -49,6 +51,17 @@ const Hero: React.FC = () => {
                 <p className="mt-4 max-w-lg mx-auto">
                     {heroDetails.subheading}
                 </p>
+
+                <button 
+                    className="mt-8 py-3 px-8 bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-600 hover:to-indigo-700 text-white font-large rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-opacity-50"
+                    onClick={() => {
+                        // Add your navigation logic or scroll functionality here
+                        // Example: scroll to another section
+                        document.getElementById('signup')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                >
+                    Start your Journey
+                </button>
                 
                 <Image
                     src={heroDetails.centerImageSrc}
